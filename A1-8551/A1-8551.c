@@ -80,7 +80,7 @@ int main(void){
         usedLetters[j++] = letter;
     }
     if (flag){
-        printf("Congratulations you guessed the secret world: %s\n", word);
+        printf("Congratulations you guessed the secret word: %s\n", word);
     }
     else{
         printf("You lost...\nThe secret word was: %s\n", word);
